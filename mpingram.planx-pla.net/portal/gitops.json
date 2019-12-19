@@ -283,7 +283,12 @@
         "resourceIndexType": "case",
         "resourceIdField": "case_id",
         "referenceIdFieldInResourceIndex": "object_id",
-        "referenceIdFieldInDataIndex": "object_id"
+        "referenceIdFieldInDataIndex": "object_id",
+	"includeAdditionalFieldsInManifest": [
+	  "md5sum",
+          "file_name",
+          "file_size"
+	]
       },
       "accessibleFieldCheckList": ["project_id"],
       "accessibleValidationField": "project_id",
