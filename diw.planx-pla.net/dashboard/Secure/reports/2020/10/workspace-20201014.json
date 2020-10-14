@@ -1,0 +1,1929 @@
+[
+  {
+    "metadata": {
+      "name": "manifestservice-deployment-5678f49b9b-nfssj",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/manifestservice-deployment-5678f49b9b-nfssj",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:47Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "manifestservice",
+        "usage": {
+          "cpu": "78455n",
+          "memory": "47376Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "presigned-url-fence-deployment-747bf7d7f9-4vbrc",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/presigned-url-fence-deployment-747bf7d7f9-4vbrc",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:33Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "nginx-logs-exporter",
+        "usage": {
+          "cpu": "465469n",
+          "memory": "3128Ki"
+        }
+      },
+      {
+        "name": "fence",
+        "usage": {
+          "cpu": "282555n",
+          "memory": "165764Ki"
+        }
+      },
+      {
+        "name": "uwsgi-exporter",
+        "usage": {
+          "cpu": "1306n",
+          "memory": "1972Ki"
+        }
+      },
+      {
+        "name": "nginx-prometheus-exporter-wrapper",
+        "usage": {
+          "cpu": "0",
+          "memory": "1612Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-hvbkt",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-hvbkt",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:43Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "2117351n",
+          "memory": "128048Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-cjqff",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-cjqff",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "437105n",
+          "memory": "20720Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-rmwkl",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-rmwkl",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "9936n",
+          "memory": "11840Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-hdvnb",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-hdvnb",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "399777n",
+          "memory": "19668Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "peregrine-deployment-f7d57988f-kp6mn",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/peregrine-deployment-f7d57988f-kp6mn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "peregrine",
+        "usage": {
+          "cpu": "493491n",
+          "memory": "193580Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "arborist-deployment-65cb6c5956-mv5zj",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/arborist-deployment-65cb6c5956-mv5zj",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:49Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "arborist",
+        "usage": {
+          "cpu": "33905n",
+          "memory": "5200Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-lbn4h",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-lbn4h",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:37Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "21783428n",
+          "memory": "22324Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "sheepdog-deployment-5d4d5876bb-55f2z",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/sheepdog-deployment-5d4d5876bb-55f2z",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "sheepdog",
+        "usage": {
+          "cpu": "405727n",
+          "memory": "166440Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-s7jcp",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-s7jcp",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "27328n",
+          "memory": "14348Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-hp4tw",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-hp4tw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "436333n",
+          "memory": "18032Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-dvkrg",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-dvkrg",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "19722495n",
+          "memory": "25756Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "cluster-autoscaler-5dffbf9c69-mp62m",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/cluster-autoscaler-5dffbf9c69-mp62m",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "cluster-autoscaler",
+        "usage": {
+          "cpu": "1587427n",
+          "memory": "37232Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "presigned-url-fence-deployment-5cbc85f74d-zcghm",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/presigned-url-fence-deployment-5cbc85f74d-zcghm",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": null,
+    "window": "30s",
+    "containers": []
+  },
+  {
+    "metadata": {
+      "name": "selenium-node-chrome-85f848cbc5-9jp5m",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/selenium-node-chrome-85f848cbc5-9jp5m",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "node-chrome",
+        "usage": {
+          "cpu": "945012n",
+          "memory": "278288Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "spark-deployment-745fc9b8d5-chqvn",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/spark-deployment-745fc9b8d5-chqvn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "gen3-spark",
+        "usage": {
+          "cpu": "9481265n",
+          "memory": "647004Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "peregrine-deployment-f7d57988f-hrvrt",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/peregrine-deployment-f7d57988f-hrvrt",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "peregrine",
+        "usage": {
+          "cpu": "486160n",
+          "memory": "193404Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-chpm7",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-chpm7",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:43Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "4022875n",
+          "memory": "134740Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "sower-deployment-8649578b98-2ll2q",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/sower-deployment-8649578b98-2ll2q",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:38Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "sower",
+        "usage": {
+          "cpu": "85355n",
+          "memory": "4844Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-v658r",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-v658r",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "3624927n",
+          "memory": "70732Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-pushgateway-6778455799-klgvn",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-pushgateway-6778455799-klgvn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:36Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-pushgateway",
+        "usage": {
+          "cpu": "101602n",
+          "memory": "7284Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "indexd-deployment-6cd8d995c7-nmgpz",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/indexd-deployment-6cd8d995c7-nmgpz",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "indexd",
+        "usage": {
+          "cpu": "22752n",
+          "memory": "92460Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "indexd-deployment-6cd8d995c7-9z9tq",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/indexd-deployment-6cd8d995c7-9z9tq",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "indexd",
+        "usage": {
+          "cpu": "23663n",
+          "memory": "92444Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "arborist-deployment-65cb6c5956-twk4x",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/arborist-deployment-65cb6c5956-twk4x",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "arborist",
+        "usage": {
+          "cpu": "0",
+          "memory": "5192Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-typha-85fc6f4b9c-2fwdz",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-typha-85fc6f4b9c-2fwdz",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-typha",
+        "usage": {
+          "cpu": "1495491n",
+          "memory": "52032Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "manifestservice-deployment-856b696bf-p6xj5",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/manifestservice-deployment-856b696bf-p6xj5",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "manifestservice",
+        "usage": {
+          "cpu": "507339n",
+          "memory": "71472Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "hatchery-diw-40uchicago-2eedu",
+      "namespace": "jupyter-pods-qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/jupyter-pods-qa-covid19/pods/hatchery-diw-40uchicago-2eedu",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "hatchery-container",
+        "usage": {
+          "cpu": "206629n",
+          "memory": "6592Ki"
+        }
+      },
+      {
+        "name": "fuse-container",
+        "usage": {
+          "cpu": "23761114n",
+          "memory": "19556Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "ssjdispatcher-deployment-54d66fcfbb-k2nlw",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/ssjdispatcher-deployment-54d66fcfbb-k2nlw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "ssjdispatcher",
+        "usage": {
+          "cpu": "73539n",
+          "memory": "8300Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-6zg59",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-6zg59",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:38Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "2416087n",
+          "memory": "133584Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "wts-deployment-64569b7554-jrhkb",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/wts-deployment-64569b7554-jrhkb",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "wts",
+        "usage": {
+          "cpu": "3204368n",
+          "memory": "149188Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-alertmanager-7dc4b84476-5s2dx",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-alertmanager-7dc4b84476-5s2dx",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-alertmanager",
+        "usage": {
+          "cpu": "841517n",
+          "memory": "5904Ki"
+        }
+      },
+      {
+        "name": "prometheus-alertmanager-configmap-reload",
+        "usage": {
+          "cpu": "0",
+          "memory": "2552Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "influxdb-5f8557cdc4-j4qwn",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/influxdb-5f8557cdc4-j4qwn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:47Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "influxdb",
+        "usage": {
+          "cpu": "880979n",
+          "memory": "21348Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "metrics-server-548456b4cd-dlw2n",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/metrics-server-548456b4cd-dlw2n",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:49Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "metrics-server",
+        "usage": {
+          "cpu": "1983883n",
+          "memory": "26816Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-qkgfb",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-qkgfb",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:32Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "442969n",
+          "memory": "20508Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fence-deployment-7b9f7cfcb4-54zdc",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/fence-deployment-7b9f7cfcb4-54zdc",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:33Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "nginx-logs-exporter",
+        "usage": {
+          "cpu": "631564n",
+          "memory": "3200Ki"
+        }
+      },
+      {
+        "name": "nginx-prometheus-exporter-wrapper",
+        "usage": {
+          "cpu": "0",
+          "memory": "1600Ki"
+        }
+      },
+      {
+        "name": "fence",
+        "usage": {
+          "cpu": "240856n",
+          "memory": "206160Ki"
+        }
+      },
+      {
+        "name": "uwsgi-exporter",
+        "usage": {
+          "cpu": "0",
+          "memory": "1936Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-t44x2",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-t44x2",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:49Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "4836976n",
+          "memory": "70568Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-wfghv",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-wfghv",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:37Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "0",
+          "memory": "15140Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-k4bxj",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-k4bxj",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "444033n",
+          "memory": "20336Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "ambassador-deployment-6fbfffd7d4-62l9r",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/ambassador-deployment-6fbfffd7d4-62l9r",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "ambassador",
+        "usage": {
+          "cpu": "7637090n",
+          "memory": "91740Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "k8sjenkins-579cbbd978-6k5d5",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/k8sjenkins-579cbbd978-6k5d5",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:49Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "jenkins",
+        "usage": {
+          "cpu": "2308073n",
+          "memory": "1750904Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "hatchery-deployment-867b8b9f84-clbcn",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/hatchery-deployment-867b8b9f84-clbcn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:48Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "hatchery",
+        "usage": {
+          "cpu": "68593n",
+          "memory": "7600Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-6m56r",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-6m56r",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:41Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "4539992n",
+          "memory": "72640Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-g6mxw",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-g6mxw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "2809851n",
+          "memory": "131968Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-xtjq6",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-xtjq6",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:41Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "5435787n",
+          "memory": "72784Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "revproxy-deployment-597ff9b7d9-65mkr",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/revproxy-deployment-597ff9b7d9-65mkr",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:43Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "revproxy",
+        "usage": {
+          "cpu": "176755n",
+          "memory": "21612Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-qsbb5",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-qsbb5",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "56376n",
+          "memory": "12404Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "revproxy-deployment-597ff9b7d9-s72fk",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/revproxy-deployment-597ff9b7d9-s72fk",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:43Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "revproxy",
+        "usage": {
+          "cpu": "239543n",
+          "memory": "21412Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "tiller-deploy-59b99695d8-7tzlx",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/tiller-deploy-59b99695d8-7tzlx",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:38Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "tiller",
+        "usage": {
+          "cpu": "75845n",
+          "memory": "10052Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "portal-deployment-9c8f8d6cd-qlskg",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/portal-deployment-9c8f8d6cd-qlskg",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:48Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "portal",
+        "usage": {
+          "cpu": "340772n",
+          "memory": "47124Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-dns-autoscaler-67b9b8475-xhjwf",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-dns-autoscaler-67b9b8475-xhjwf",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "autoscaler",
+        "usage": {
+          "cpu": "156767n",
+          "memory": "8932Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-ht4c5",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-ht4c5",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "20207187n",
+          "memory": "21572Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-57t5t",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-57t5t",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "2023392n",
+          "memory": "131164Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "revproxy-deployment-585695978c-qg9fw",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/revproxy-deployment-585695978c-qg9fw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "revproxy",
+        "usage": {
+          "cpu": "901070n",
+          "memory": "27312Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-tnszb",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-tnszb",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "18178786n",
+          "memory": "20460Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "sheepdog-deployment-5d4d5876bb-8ltr8",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/sheepdog-deployment-5d4d5876bb-8ltr8",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:49Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "sheepdog",
+        "usage": {
+          "cpu": "333259n",
+          "memory": "167304Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-zb6sg",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-zb6sg",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "0",
+          "memory": "13568Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-es-proxy-deployment-c98d595d8-tkdpw",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/aws-es-proxy-deployment-c98d595d8-tkdpw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "esproxy",
+        "usage": {
+          "cpu": "0",
+          "memory": "2464Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "sheepdog-deployment-544f8c7c7f-4vfkl",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/sheepdog-deployment-544f8c7c7f-4vfkl",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "sheepdog",
+        "usage": {
+          "cpu": "196404n",
+          "memory": "186120Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "spark-deployment-6cf9d7ccb9-s9bcn",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/spark-deployment-6cf9d7ccb9-s9bcn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:49Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "gen3-spark",
+        "usage": {
+          "cpu": "10203210n",
+          "memory": "622172Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-es-proxy-deployment-ffb6697b9-svxhd",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/aws-es-proxy-deployment-ffb6697b9-svxhd",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "esproxy",
+        "usage": {
+          "cpu": "0",
+          "memory": "7012Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fence-deployment-57895dfddb-597tw",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/fence-deployment-57895dfddb-597tw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": null,
+    "window": "30s",
+    "containers": []
+  },
+  {
+    "metadata": {
+      "name": "portal-deployment-9c8f8d6cd-tjr67",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/portal-deployment-9c8f8d6cd-tjr67",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:41Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "portal",
+        "usage": {
+          "cpu": "297103n",
+          "memory": "47080Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-wz49f",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-wz49f",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "393089n",
+          "memory": "20472Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-66j9p",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-66j9p",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "5869224n",
+          "memory": "72504Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-z4qt6",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-z4qt6",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:39Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "5602677n",
+          "memory": "68692Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "aws-node-cd4x4",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/aws-node-cd4x4",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "aws-node",
+        "usage": {
+          "cpu": "7276742n",
+          "memory": "72620Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "presigned-url-fence-deployment-6cd75cd69f-7596g",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/presigned-url-fence-deployment-6cd75cd69f-7596g",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": null,
+    "window": "30s",
+    "containers": []
+  },
+  {
+    "metadata": {
+      "name": "prometheus-server-69f9f7966b-m7sfn",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-server-69f9f7966b-m7sfn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:39Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-server-configmap-reload",
+        "usage": {
+          "cpu": "0",
+          "memory": "2760Ki"
+        }
+      },
+      {
+        "name": "prometheus-server",
+        "usage": {
+          "cpu": "13768952n",
+          "memory": "654856Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "guppy-deployment-6b849f65d8-hknwz",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/guppy-deployment-6b849f65d8-hknwz",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:41Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "guppy",
+        "usage": {
+          "cpu": "69016n",
+          "memory": "32596Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "awshelper-devterm-1602658717",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/awshelper-devterm-1602658717",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "awshelper-devterm-1602658717",
+        "usage": {
+          "cpu": "0",
+          "memory": "7540Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "kube-proxy-rkg9z",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/kube-proxy-rkg9z",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-proxy",
+        "usage": {
+          "cpu": "440283n",
+          "memory": "17900Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-typha-horizontal-autoscaler-5ddb46bbd8-dwbv8",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-typha-horizontal-autoscaler-5ddb46bbd8-dwbv8",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "autoscaler",
+        "usage": {
+          "cpu": "109646n",
+          "memory": "11248Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-7stvh",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-7stvh",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:38Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "3871098n",
+          "memory": "137188Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-9g6t8",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-9g6t8",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:50Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "17588141n",
+          "memory": "21208Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-kube-state-metrics-5ccb885bdc-c2clg",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-kube-state-metrics-5ccb885bdc-c2clg",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "kube-state-metrics",
+        "usage": {
+          "cpu": "599045n",
+          "memory": "18136Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "coredns-56678dcf76-mv7cw",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/coredns-56678dcf76-mv7cw",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:41Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "coredns",
+        "usage": {
+          "cpu": "4130527n",
+          "memory": "11784Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "selenium-hub-788d7765bc-rtl7d",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/selenium-hub-788d7765bc-rtl7d",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "hub",
+        "usage": {
+          "cpu": "2988453n",
+          "memory": "249640Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "awshelper-devterm-1602658267",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/awshelper-devterm-1602658267",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:38Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "awshelper-devterm-1602658267",
+        "usage": {
+          "cpu": "0",
+          "memory": "5220Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "indexd-deployment-7c5856cc6c-z9jrr",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/indexd-deployment-7c5856cc6c-z9jrr",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:38Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "indexd",
+        "usage": {
+          "cpu": "23456n",
+          "memory": "92452Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "arborist-deployment-69b9d9b7c9-lsgch",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/arborist-deployment-69b9d9b7c9-lsgch",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "arborist",
+        "usage": {
+          "cpu": "39717n",
+          "memory": "6064Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "peregrine-deployment-6685ddf77-ttznq",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/peregrine-deployment-6685ddf77-ttznq",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "peregrine",
+        "usage": {
+          "cpu": "502282n",
+          "memory": "259492Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "selenium-node-chrome-85f848cbc5-gw7zt",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/selenium-node-chrome-85f848cbc5-gw7zt",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:47Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "node-chrome",
+        "usage": {
+          "cpu": "967839n",
+          "memory": "281932Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "pidgin-deployment-74657645d9-lvgx6",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/pidgin-deployment-74657645d9-lvgx6",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "pidgin",
+        "usage": {
+          "cpu": "607239n",
+          "memory": "42348Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "wts-deployment-6bc7b47c4d-7s7mb",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/wts-deployment-6bc7b47c4d-7s7mb",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:35Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "wts",
+        "usage": {
+          "cpu": "523668n",
+          "memory": "146456Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "portal-deployment-6675f9b5b-z5455",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/portal-deployment-6675f9b5b-z5455",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "portal",
+        "usage": {
+          "cpu": "18454n",
+          "memory": "63148Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "selenium-node-chrome-85f848cbc5-qqtqd",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/selenium-node-chrome-85f848cbc5-qqtqd",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:47Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "node-chrome",
+        "usage": {
+          "cpu": "1019727n",
+          "memory": "276108Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "pidgin-deployment-7b6c5d66bf-7r49r",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/pidgin-deployment-7b6c5d66bf-7r49r",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "pidgin",
+        "usage": {
+          "cpu": "637638n",
+          "memory": "45452Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-cnd2w",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-cnd2w",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:46Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "17607113n",
+          "memory": "23484Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "selenium-node-chrome-85f848cbc5-wthjz",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/selenium-node-chrome-85f848cbc5-wthjz",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "node-chrome",
+        "usage": {
+          "cpu": "985517n",
+          "memory": "269556Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "calico-node-jmrjx",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/calico-node-jmrjx",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "calico-node",
+        "usage": {
+          "cpu": "19288474n",
+          "memory": "23324Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fluentd-s98wt",
+      "namespace": "logging",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/logging/pods/fluentd-s98wt",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:48Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fluentd",
+        "usage": {
+          "cpu": "4702744n",
+          "memory": "131056Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "selenium-node-chrome-85f848cbc5-bnn4n",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/selenium-node-chrome-85f848cbc5-bnn4n",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:40Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "node-chrome",
+        "usage": {
+          "cpu": "908955n",
+          "memory": "278408Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "dashboard-5ff989b845-pqw5r",
+      "namespace": "qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/qa-covid19/pods/dashboard-5ff989b845-pqw5r",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:43Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "dashboard",
+        "usage": {
+          "cpu": "579213n",
+          "memory": "43776Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "coredns-56678dcf76-sbpwj",
+      "namespace": "kube-system",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/kube-system/pods/coredns-56678dcf76-sbpwj",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:33Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "coredns",
+        "usage": {
+          "cpu": "5436889n",
+          "memory": "12036Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "fence-deployment-5778f76b7d-j6hbd",
+      "namespace": "default",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/default/pods/fence-deployment-5778f76b7d-j6hbd",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:44Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fence",
+        "usage": {
+          "cpu": "66288n",
+          "memory": "159084Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "hatchery-planxdemo-40gmail-2ecom",
+      "namespace": "jupyter-pods-qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/jupyter-pods-qa-covid19/pods/hatchery-planxdemo-40gmail-2ecom",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:37Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fuse-container",
+        "usage": {
+          "cpu": "23450570n",
+          "memory": "5764Ki"
+        }
+      },
+      {
+        "name": "hatchery-container",
+        "usage": {
+          "cpu": "206874n",
+          "memory": "9448Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-wdtkn",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-wdtkn",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "0",
+          "memory": "9204Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "prometheus-node-exporter-f67qs",
+      "namespace": "prometheus",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/prometheus/pods/prometheus-node-exporter-f67qs",
+      "creationTimestamp": "2020-10-14T10:41:16Z"
+    },
+    "timestamp": "2020-10-14T10:40:39Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "prometheus-node-exporter",
+        "usage": {
+          "cpu": "1496408n",
+          "memory": "9208Ki"
+        }
+      }
+    ]
+  }
+]
