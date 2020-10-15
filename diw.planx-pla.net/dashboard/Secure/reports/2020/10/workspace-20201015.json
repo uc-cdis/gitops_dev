@@ -1,0 +1,54 @@
+[
+  {
+    "metadata": {
+      "name": "hatchery-diw-40uchicago-2eedu",
+      "namespace": "jupyter-pods-qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/jupyter-pods-qa-covid19/pods/hatchery-diw-40uchicago-2eedu",
+      "creationTimestamp": "2020-10-15T07:56:30Z"
+    },
+    "timestamp": "2020-10-15T07:55:45Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "fuse-container",
+        "usage": {
+          "cpu": "17984242n",
+          "memory": "4508Ki"
+        }
+      },
+      {
+        "name": "hatchery-container",
+        "usage": {
+          "cpu": "1838724n",
+          "memory": "67000Ki"
+        }
+      }
+    ]
+  },
+  {
+    "metadata": {
+      "name": "hatchery-planxdemo-40gmail-2ecom",
+      "namespace": "jupyter-pods-qa-covid19",
+      "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/jupyter-pods-qa-covid19/pods/hatchery-planxdemo-40gmail-2ecom",
+      "creationTimestamp": "2020-10-15T07:56:30Z"
+    },
+    "timestamp": "2020-10-15T07:55:42Z",
+    "window": "30s",
+    "containers": [
+      {
+        "name": "hatchery-container",
+        "usage": {
+          "cpu": "1333281n",
+          "memory": "53024Ki"
+        }
+      },
+      {
+        "name": "fuse-container",
+        "usage": {
+          "cpu": "38064493n",
+          "memory": "4384Ki"
+        }
+      }
+    ]
+  }
+]
