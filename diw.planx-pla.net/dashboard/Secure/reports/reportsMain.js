@@ -63,12 +63,12 @@ export function main() {
 
     var prDiv = document.getElementById("workspace-reports");
     var tdElement =  document.createElement("td");
-    tdElement.innerHTML = "<b> Name </b>";
-    tdElement.innerHTML = "<b> Creation Time </b>";
-    tdElement.innerHTML = "<b> fuse-container CPU </b>";
-    tdElement.innerHTML = "<b> fuse-container Memory </b>";
-    tdElement.innerHTML = "<b> hatchery-container cpu </b>";
-    tdElement.innerHTML = "<b> hatchery-container memory </b>";
+    tdElement.append("<td> Name </td>")
+    tdElement.append("<td> Creation Time </td>")
+    tdElement.append("<td> fuse-container CPU </td>")
+    tdElement.append("<td> fuse-container Memory </td>")
+    tdElement.append("<td> hatchery-container cpu </td>");
+    tdElement.append("<td> hatchery-container memory </td>");
     trElement.appendChild( tdElement );
 
     tableJSON.forEach(function(a_column, index){
