@@ -62,14 +62,14 @@ export function main() {
     tableDiv.appendChild( trElement );
 
     var prDiv = document.getElementById("workspace-reports");
-    var tdElement =  document.createElement("td");
-    tdElement.append("<td> Name </td>")
-    tdElement.append("<td> Creation Time </td>")
-    tdElement.append("<td> fuse-container CPU </td>")
-    tdElement.append("<td> fuse-container Memory </td>")
-    tdElement.append("<td> hatchery-container cpu </td>");
-    tdElement.append("<td> hatchery-container memory </td>");
-    trElement.appendChild( tdElement );
+    var thElement =  document.createElement("th");
+    thElement.innerHTML = "<th> Name </th>";
+    thElement.innerHTML += "<th> CreationTime </th>";
+    thElement.innerHTML += "<th> fuse-containerCPU </th>";
+    thElement.innerHTML += "<th> fuse-containerMemory </th>";
+    thElement.innerHTML += "<th> hatchery-containerCpu </th>";
+    thElement.innerHTML += "<th> hatchery-containerMemory </th>";
+    trElement.appendChild( thElement );
 
     tableJSON.forEach(function(a_column, index){
       if(a_column.Values){
