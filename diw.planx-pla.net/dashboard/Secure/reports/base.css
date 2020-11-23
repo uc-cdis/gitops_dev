@@ -28,6 +28,18 @@ h1,h2,h3,h4 {
   display: "flex";
 }
 
+#workspace-reports table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+#workspace-reports  th, #workspace-reports td {
+  padding: 10px;
+  border: 1px solid gray;
+}
+
 body::-webkit-scrollbar {
   width: 6px;
 }
