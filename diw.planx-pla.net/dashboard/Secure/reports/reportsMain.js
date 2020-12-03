@@ -2,66 +2,24 @@ import './reportsTable.js';
 import { amap, fetchRecentData } from './dataHelper.js';
 
 export function main() {
-    const reportJSON = [
-        {
-            "metadata": {
-                "name": "hatchery-diw-40uchicago-2eedu",
-                "namespace": "jupyter-pods-qa-covid19",
-                "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/jupyter-pods-qa-covid19/pods/hatchery-diw-40uchicago-2eedu",
-                "creationTimestamp": "2020-10-14T10:41:16Z"
-            },
-            "timestamp": "2020-10-14T10:40:46Z",
-            "window": "30s",
-            "containers": [
-                {
-                    "name": "hatchery-container",
-                    "usage": {
-                        "cpu": "206629n",
-                        "memory": "6592Ki"
-                    }
-                },
-                {
-                    "name": "fuse-container",
-                    "usage": {
-                        "cpu": "23761114n",
-                        "memory": "19556Ki"
-                    }
-                }
-            ]
-        },
-        {
-            "metadata": {
-                "name": "hatchery-planxdemo-40gmail-2ecom",
-                "namespace": "jupyter-pods-qa-covid19",
-                "selfLink": "/apis/metrics.k8s.io/v1beta1/namespaces/jupyter-pods-qa-covid19/pods/hatchery-planxdemo-40gmail-2ecom",
-                "creationTimestamp": "2020-10-14T10:41:16Z"
-            },
-            "timestamp": "2020-10-14T10:40:37Z",
-            "window": "30s",
-            "containers": [
-                {
-                    "name": "fuse-container",
-                    "usage": {
-                        "cpu": "23450570n",
-                        "memory": "5764Ki"
-                    }
-                },
-                {
-                    "name": "hatchery-container",
-                    "usage": {
-                        "cpu": "206874n",
-                        "memory": "9448Ki"
-                    }
-                }
-            ]
-        }
-    ];
+    const dt =  new Date()
+    const dataPath = `./${dt.getUTCFullYear()}/${dt.getMonth() + 1}/${dt.getDate()}`
+
+    const fs = require("fs");
+    const runningWorkspace = fs.readFileSync(dataPath + '/runningjupyter').toString('utf-8');
+    console.log(runningWorkspace)
+
+    const workspaceMetrics = require(dataPath + '/metrics.json');
+    const startTime = require(dataPath + '/metrics.json');
+    console.log(workspaceMetrics)
+    console.log(startTime)
+
 
     const tableDiv = document.createElement("table");
     let trElement = document.createElement("tr");
 
-    const prDiv = document.getElementById("workspace-reports");
-    const tableHeader = [ "Name","Creation Time","fuse-container CPU","fuse-container Memory","hatchery-container Cpu","hatchery-container Memory"]
+    const prDiv = document.getElementById("cpu-reports");
+    const tableHeader = [ "Pod","CPU quota","Pod Status"]
 
     for (let i = 0; i < tableHeader.length; i++) {
         console.log(tableHeader[i]);

@@ -215,36 +215,6 @@ class UniqueUsersHandler {
 }
 
 
-//----------------------------
-
-/**
- * Generate mock data for testing UX without backend
- */
-function fetchRecentDataMock() {
-  const result = {
-    users: {
-      reportType: "users",
-      data: [
-
-      ]
-    }
-  };
-
-  Object.keys(result).map(
-    (k) => {
-      let bar='*';
-      for(let i=0; i < 5; ++i) {
-        result[k].data.push(
-          [ k, "" + i, bar ] 
-        );
-        bar += '*';
-      }
-    }
-  );
-  return Promise.resolve(result);
-}
-
-
 const reportHandlers = {
   users: new UniqueUsersHandler()
 };
