@@ -84,4 +84,3 @@ gen3 ec2 asg-set-capacity jupyter +3
 * [cloud-automation help](https://github.com/uc-cdis/cloud-automation/tree/master/doc)
 * [hatchery docs](https://github.com/uc-cdis/hatchery)
 * [ctds gitops-dev repo](https://github.com/uc-cdis/gitops-dev)
-
