@@ -748,8 +748,8 @@
             },
             {
               "name": "Data Commons",
-              field": "commons",
-             "contentType": "string",
+              "field": "commons",
+              "contentType": "string",
               "includeIfNotAvailable": false
             }
           ]
