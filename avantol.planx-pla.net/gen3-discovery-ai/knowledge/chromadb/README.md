@@ -1,6 +1,6 @@
-Put Chromadb persisted knowledge collections here.
+Put Chromadb persisted knowledge collections here. If it's all public data, then you could commit here.
 
-You can run gen3-discovery-ai locally, store stuff in the knowledge library, and then rsync the persisted collection.
+You can also run gen3-discovery-ai locally, store stuff in the knowledge library, and then rsync the persisted collection direcctly to the VM.
 
 Just make sure the collection name locally (e.g. the `topic` name) is the same locally and remotely.
 
