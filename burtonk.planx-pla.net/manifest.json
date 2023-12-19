@@ -21,7 +21,8 @@
     "sower": "quay.io/cdis/sower:master",
     "spark": "quay.io/cdis/gen3-spark:master",
     "tube": "quay.io/cdis/tube:master",
-    "guppy": "quay.io/cdis/guppy:master"
+    "guppy": "quay.io/cdis/guppy:master",
+    "datasim": "quay.io/cdis/data-simulator:master"
   },
   "arborist": {
     "deployment_version": "2"
